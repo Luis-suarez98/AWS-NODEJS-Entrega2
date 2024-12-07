@@ -215,7 +215,7 @@ app.all(["/alumnos", "/profesores"], (req, res) => {
 });
 
 // Iniciar el servidor
-const PORT = 8080;
+const PORT = 80;
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
