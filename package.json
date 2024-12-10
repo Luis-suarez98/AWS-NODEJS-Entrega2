@@ -10,6 +10,17 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "@aws-sdk/client-dynamodb": "^3.705.0",
+    "@aws-sdk/client-s3": "^3.705.0",
+    "@aws-sdk/client-sns": "^3.699.0",
+    "@aws-sdk/lib-dynamodb": "^3.705.0",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mariadb": "^3.4.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.5",
+    "ssh2": "^1.16.0"
   }
 }
